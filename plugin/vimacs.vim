@@ -1388,6 +1388,10 @@ if g:VM_F10Menu == 1
 endif
 
 
+set nopaste
+inoremap <C-c> <C-l>
+
+
 "
 " We're done :)
 "
